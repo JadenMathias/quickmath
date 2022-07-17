@@ -315,7 +315,7 @@ def d2():
     if q2=="4":
         a=float(input("\nEnter altitude: "))
         b=float(input("Enter side b: "))
-        print ("Area and perimeter of the Parallelogram is",a*b,"cm^2 and",2*(a+b),"cm.")
+        print ("Area and perimeter of the Parallelogram is",0.5*a*b,"cm^2 and",2*(a+b),"cm.")
     if q2=="5":
         q=input("Area or perimeter?[A/P]")
         if q=="A":
